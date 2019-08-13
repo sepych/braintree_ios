@@ -87,8 +87,8 @@ static BTPaymentFlowDriver *paymentFlowDriver;
 #else
     if ([SFSafariViewController class]) {
 #endif
-        [self informDelegatePresentingViewControllerRequestPresent:appSwitchURL];
-    } else {
+    //    [self informDelegatePresentingViewControllerRequestPresent:appSwitchURL];
+    //} else {
         UIApplication *application = [UIApplication sharedApplication];
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 100000
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 110000
